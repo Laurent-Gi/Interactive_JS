@@ -75,7 +75,7 @@ let firstCardElt = document.getElementsByClassName("card")[0];
 // À toi de jouer !
 
 // 1/ Sélection du boutton edit de la première card :
-let editCardButtonElt1 = document.getElementsByClassName("btn-success")[0]; // bouton de la première "card"
+let editCardButtonElt1 = document.getElementsByClassName("btn-outline-secondary")[0]; // bouton de la première "card"
 // 2/ Sélection de la div du texte de la première card :
 // let textCardElt1 = document.getElementsByClassName("card-text")[0]; // texte de la première "card"
 
@@ -101,7 +101,7 @@ editCardButtonElt1.addEventListener("click", onEditButtonClick1);
 let secondCardElt = document.getElementsByClassName("card")[1];
 
 // 2/ Sélection du boutton edit de la première card :
-let editCardButtonElt2 = secondCardElt.getElementsByClassName("btn-success")[0]; // bouton de la première "card"
+let editCardButtonElt2 = secondCardElt.getElementsByClassName("btn-outline-secondary")[0]; // bouton de la première "card"
 
 // 3/ Function : Mise en "green" de style.color
 let onEditButtonClick2 = function() {
