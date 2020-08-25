@@ -26,7 +26,7 @@ function showNavbarOnClickToggle() {
 // --------------------------------------
 function changeTextColorFirstCard() {
   let firstCardElt = document.getElementsByClassName("card")[0];
-  let editCardButtonElt1 = document.getElementsByClassName("btn-success")[0]; // bouton de la première "card"
+  let editCardButtonElt1 = document.getElementsByClassName("btn-outline-secondary")[0]; // bouton de la première "card"
   let onEditButtonClick1 = function() {
     firstCardElt.style.color = "red";
   };
@@ -38,7 +38,7 @@ function changeTextColorFirstCard() {
 // ------------------
 function changeTextColorSecondCard() {
   let secondCardElt = document.getElementsByClassName("card")[1];
-  let editCardButtonElt2 = secondCardElt.getElementsByClassName("btn-success")[0]; // bouton de la première "card"
+  let editCardButtonElt2 = secondCardElt.getElementsByClassName("btn-outline-secondary")[0]; // bouton de la première "card"
   let onEditButtonClick2 = function() {
     if (secondCardElt.style.color === 'green') {
       secondCardElt.style.color = ""; // retour à la "default value" !
